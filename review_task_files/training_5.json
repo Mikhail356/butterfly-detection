@@ -1,0 +1,164 @@
+[
+  {
+    "input_values": {
+      "photo_id": "760735436",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/760735436/original.jpg",
+      "annotation_id": "gold:760735436",
+      "proposed_boxes": [
+        {
+          "left": 0.27,
+          "top": 0.22,
+          "width": 0.48,
+          "height": 0.58,
+          "shape": "rectangle"
+        }
+      ]
+    },
+    "known_solutions": [
+      {
+        "output_values": {
+          "category": {
+            "correct": true,
+            "missing": false,
+            "extra": false,
+            "bounds": false
+          }
+        },
+        "correctness_weight": 1.0
+      }
+    ],
+    "infinite_overlap": true,
+    "message_on_unknown_solution": "Разметка верна: все бабочки выделены отдельными плотными рамками."
+  },
+  {
+    "input_values": {
+      "photo_id": "760686681",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/760686681/original.jpg",
+      "annotation_id": "gold:760686681",
+      "proposed_boxes": [
+        {
+          "left": 0.30157143200000003,
+          "top": 0.24685714,
+          "width": 0.392571426,
+          "height": 0.52057143,
+          "shape": "rectangle"
+        }
+      ]
+    },
+    "known_solutions": [
+      {
+        "output_values": {
+          "category": {
+            "correct": false,
+            "missing": false,
+            "extra": false,
+            "bounds": true
+          }
+        },
+        "correctness_weight": 1.0
+      }
+    ],
+    "infinite_overlap": true,
+    "message_on_unknown_solution": "Рамка обрезает видимые части бабочки."
+  },
+  {
+    "input_values": {
+      "photo_id": "649943251",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/649943251/original.jpg",
+      "annotation_id": "gold:649943251",
+      "proposed_boxes": [
+        {
+          "left": 0.338681,
+          "top": 0.162741,
+          "width": 0.502674,
+          "height": 0.445396,
+          "shape": "rectangle"
+        }
+      ]
+    },
+    "known_solutions": [
+      {
+        "output_values": {
+          "category": {
+            "correct": false,
+            "missing": true,
+            "extra": false,
+            "bounds": false
+          }
+        },
+        "correctness_weight": 1.0
+      }
+    ],
+    "infinite_overlap": true,
+    "message_on_unknown_solution": "Не все бабочки выделены."
+  },
+  {
+    "input_values": {
+      "photo_id": "760751838",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/760751838/original.jpg",
+      "annotation_id": "gold:760751838",
+      "proposed_boxes": [
+        {
+          "left": 0.392,
+          "top": 0.236,
+          "width": 0.096,
+          "height": 0.168,
+          "shape": "rectangle"
+        },
+        {
+          "left": 0.43,
+          "top": 0.45,
+          "width": 0.25,
+          "height": 0.38,
+          "shape": "rectangle"
+        }
+      ]
+    },
+    "known_solutions": [
+      {
+        "output_values": {
+          "category": {
+            "correct": false,
+            "missing": true,
+            "extra": false,
+            "bounds": true
+          }
+        },
+        "correctness_weight": 1.0
+      }
+    ],
+    "infinite_overlap": true,
+    "message_on_unknown_solution": "Не все бабочки выделены. Рамка обрезает видимые части бабочки."
+  },
+  {
+    "input_values": {
+      "photo_id": "760739631",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/760739631/original.jpg",
+      "annotation_id": "gold:760739631",
+      "proposed_boxes": [
+        {
+          "shape": "rectangle",
+          "left": 0.15,
+          "top": 0.15,
+          "width": 0.3,
+          "height": 0.25
+        }
+      ]
+    },
+    "known_solutions": [
+      {
+        "output_values": {
+          "category": {
+            "correct": false,
+            "missing": false,
+            "extra": true,
+            "bounds": false
+          }
+        },
+        "correctness_weight": 1.0
+      }
+    ],
+    "infinite_overlap": true,
+    "message_on_unknown_solution": "На этом фото нет бабочек: рамка лишняя."
+  }
+]
