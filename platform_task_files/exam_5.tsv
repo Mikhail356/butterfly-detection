@@ -1,0 +1,6 @@
+INPUT:photo_id	INPUT:image	INPUT:category	INPUT:reference_boxes	GOLDEN:bbox_correct
+617385192	https://inaturalist-open-data.s3.amazonaws.com/photos/617385192/original.jpg		"[{""left"":0.035565,""top"":0.278243,""width"":0.964435,""height"":0.548117}]"	true
+761066736	https://inaturalist-open-data.s3.amazonaws.com/photos/761066736/original.jpg		"[{""left"":0.430833,""top"":0.316667,""width"":0.271667,""height"":0.383333}]"	true
+760682414	https://inaturalist-open-data.s3.amazonaws.com/photos/760682414/original.jpg		"[{""left"":0.19,""top"":0.205,""width"":0.27,""height"":0.425}]"	true
+703704800	https://inaturalist-open-data.s3.amazonaws.com/photos/703704800/original.jpg		"[{""left"":0.330833,""top"":0.37875,""width"":0.175833,""height"":0.32625},{""left"":0.479167,""top"":0.38375,""width"":0.120833,""height"":0.33375}]"	true
+760751530	https://inaturalist-open-data.s3.amazonaws.com/photos/760751530/original.jpg		[]	true

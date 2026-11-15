@@ -1,0 +1,138 @@
+[
+  {
+    "input_values": {
+      "photo_id": "760735436",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/760735436/original.jpg",
+      "category": "",
+      "reference_boxes": [
+        {
+          "left": 0.27,
+          "top": 0.22,
+          "width": 0.48,
+          "height": 0.58
+        }
+      ]
+    },
+    "known_solutions": [
+      {
+        "output_values": {
+          "bbox_correct": true
+        },
+        "correctness_weight": 1.0
+      }
+    ],
+    "infinite_overlap": true,
+    "message_on_unknown_solution": "На фото взрослых бабочек: 1. Каждую выделите отдельной плотной рамкой. Включите все видимые крылья, тело, усики и лапки. Не добавляйте большой запас фона."
+  },
+  {
+    "input_values": {
+      "photo_id": "760686681",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/760686681/original.jpg",
+      "category": "",
+      "reference_boxes": [
+        {
+          "left": 0.17071429,
+          "top": 0.07333333,
+          "width": 0.65428571,
+          "height": 0.86761905
+        }
+      ]
+    },
+    "known_solutions": [
+      {
+        "output_values": {
+          "bbox_correct": true
+        },
+        "correctness_weight": 1.0
+      }
+    ],
+    "infinite_overlap": true,
+    "message_on_unknown_solution": "На фото взрослых бабочек: 1. Каждую выделите отдельной плотной рамкой. Включите все видимые крылья, тело, усики и лапки. Не добавляйте большой запас фона."
+  },
+  {
+    "input_values": {
+      "photo_id": "649943251",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/649943251/original.jpg",
+      "category": "",
+      "reference_boxes": [
+        {
+          "left": 0.338681,
+          "top": 0.162741,
+          "width": 0.502674,
+          "height": 0.445396
+        },
+        {
+          "left": 0.258467,
+          "top": 0.35546,
+          "width": 0.406417,
+          "height": 0.48394
+        }
+      ]
+    },
+    "known_solutions": [
+      {
+        "output_values": {
+          "bbox_correct": true
+        },
+        "correctness_weight": 1.0
+      }
+    ],
+    "infinite_overlap": true,
+    "message_on_unknown_solution": "На фото взрослых бабочек: 2. Каждую выделите отдельной плотной рамкой. Включите все видимые крылья, тело, усики и лапки. Не добавляйте большой запас фона."
+  },
+  {
+    "input_values": {
+      "photo_id": "760751838",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/760751838/original.jpg",
+      "category": "",
+      "reference_boxes": [
+        {
+          "left": 0.36,
+          "top": 0.18,
+          "width": 0.16,
+          "height": 0.28
+        },
+        {
+          "left": 0.43,
+          "top": 0.45,
+          "width": 0.25,
+          "height": 0.38
+        },
+        {
+          "left": 0.938,
+          "top": 0.16,
+          "width": 0.062,
+          "height": 0.21
+        }
+      ]
+    },
+    "known_solutions": [
+      {
+        "output_values": {
+          "bbox_correct": true
+        },
+        "correctness_weight": 1.0
+      }
+    ],
+    "infinite_overlap": true,
+    "message_on_unknown_solution": "На фото взрослых бабочек: 3. Каждую выделите отдельной плотной рамкой. Включите все видимые крылья, тело, усики и лапки. Не добавляйте большой запас фона."
+  },
+  {
+    "input_values": {
+      "photo_id": "760739631",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/760739631/original.jpg",
+      "category": "",
+      "reference_boxes": []
+    },
+    "known_solutions": [
+      {
+        "output_values": {
+          "bbox_correct": true
+        },
+        "correctness_weight": 1.0
+      }
+    ],
+    "infinite_overlap": true,
+    "message_on_unknown_solution": "На фото нет взрослых бабочек. Удалите все рамки и отправьте пустую разметку."
+  }
+]
